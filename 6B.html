@@ -1,0 +1,326 @@
+<html>
+<head>
+<title>ISRO</title>
+<style>
+   
+h2{
+ font-family: Sans-serif; 
+ font-size: 24px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: blue;
+ text-align: center; 
+ text-decoration: underline
+}
+h1{
+	text-align: center;
+	color: black;
+	font-size: 250%;
+	font-family: verdana;
+	background-image: url("https://th.bing.com/th/id/OIP.Fbaad-w86QyJ9SCUbG8ZigHaG5?w=203&h=190&c=7&o=5&pid=1.7" class="center");
+}
+table{
+ font-family: verdana; 
+ color:black; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+ background: linear-gradient(to bottom, pink 0%, crimson 100%);  
+ 
+ border: 4px solid crimson;
+ border-style: dotted;
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+input[type=text], input[type=email], input[type=number]{
+
+ padding: 6px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+input[type=submit], input[type=reset]{
+ width: 15%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+</style>
+<h1>Indian Space Research Organisation</h1>
+	<img src="https://th.bing.com/th/id/OIP.Fbaad-w86QyJ9SCUbG8ZigHaG5?w=203&h=190&c=7&o=5&pid=1.7" class="center">
+	
+<body>
+<form action="C:\xampp\cgi-bin\action2.html" method="post" autocomplete="on">
+<table align="center" cellpadding = "10">
+<tr>
+	<td style="font-size: 190%;color:blue;">Personal details:</td>
+</tr>
+<tr>
+<td>First Name</td>
+<td><input type="text" name="FirstName" maxlength="50" placeholder="enter here" />
+<td>Last Name</td>
+<td><input type="text" name="LastName" maxlength="50" placeholder="enter here"/>
+</td>
+</tr>
+<tr>
+<td>Email ID</td>
+<td><input type="email" name="EmailID" maxlength="100" placeholder="enter here"/></td>
+<td>Mobile Number</td>
+<td>
+<input type="text" name="MobileNumber" maxlength="10" placeholder="enter here"/>
+</td>
+</tr>
+<tr>
+	<td>Gender</td>
+<td>
+<input type="radio" name="Gender" value="Male" />
+Male
+<input type="radio" name="Gender" value="Female" />
+Female
+<input type="radio" name="Gender" value="Male" />
+Other
+</td>
+<td>Date of Birth(DOB)</td>
+<td>
+<select name="BirthDay" id="Birthday_Day">
+<option value="-1">Day:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select name="BirthdayMonth" id="Birthday_Month">
+<option value="-1">Month:</option>
+<option value="January">Jan(1)</option>
+<option value="February">Feb(2)</option>
+<option value="March">Mar(3)</option>
+<option value="April">Apr(4)</option>
+<option value="May">May(5)</option>
+<option value="June">Jun(6)</option>
+<option value="July">Jul(7)</option>
+<option value="August">Aug(8)</option>
+<option value="September">Sep(9)</option>
+<option value="October">Oct(10)</option>
+<option value="November">Nov(11)</option>
+<option value="December">Dec(12)</option>
+</select>
+<select name="BirthdayYear" id="Birthday_Year">
+<option value="-1">Year:</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+<option value="1994">1994</option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Address<br /><br /><br /></td>
+<td><textarea name="Address" rows="10" cols="50"></textarea></td>
+</tr>
+<tr>
+<td>City</td>
+<td><input type="text" name="City" maxlength="50" placeholder="enter here"/>
+</td>
+<td>Pin Code</td>
+<td><input type="Number" name="PinCode" maxlength="6" placeholder="enter here"/>
+</td>
+</tr>
+<tr>
+<td>State</td>
+<td><input type="text" name="State" maxlength="50" placeholder="enter here"/>
+</td>
+<td>Country</td>
+<td><input type="text" name="Country" placeholder="enter here" /></td>
+</tr>
+<tr>
+<td><label for="myfile">Submit valid identification proof:</label></td>
+<td>
+<select name="ID" id="proof">
+<option value="1" selected>Aadhar card</option>
+<option value="2">PAN card</option>
+<option value="3">Voter ID</option>
+</select>
+<input type="file" name="myfile" accept="file/*" required><br></td>
+</tr>
+<tr>
+<td style="font-size: 180%;color:blue;">Educational Details:</td>
+</tr>
+<tr>
+<td style="font-size: 130%;color:yellow;">
+High School(10th):
+</td>
+</tr>
+<tr>
+<td>
+Enter school name:<br><input type="text" name="HighSchool" placeholder="enter here" />
+</td>
+<td>
+Enter 10th percentage:<br>
+<input type="number" name="percentage" placeholder="enter here" />
+</td>
+<td>
+10th certificate:<br>
+<input type="file" name="myfile" accept="file/*" required><br></td>
+</tr>
+<tr>
+<td>
+Enter Board name:<br><input type="text" name="HighSchool" placeholder="enter here" />
+</td>
+<td>
+Enter exam seat number:<br>
+<input type="number;text;" name="number;text;" placeholder="enter here" required />
+</td>
+</tr>
+<tr>
+<td style="font-size: 130%;color:yellow;">
+Higher School(12th):
+</td>
+</tr>
+<tr>
+<td>
+Enter school name:<br><input type="text" name="HighSchool" placeholder="enter here" />
+</td>
+<td>
+Enter 12th percentage:<br>
+<input type="number" name="percentage" placeholder="enter here" />
+</td>
+<td>
+12th certificate:<br>
+<input type="file" name="myfile" accept="file/*" required><br></td>
+</tr>
+<tr>
+<td>
+Enter Board name:<br><input type="text" name="HighSchool" placeholder="enter here" />
+</td>
+<td>
+Enter exam seat number:<br>
+<input type="number;text;" name="number;text;" placeholder="enter here" required />
+</td>
+</tr>
+<tr>
+<td style="font-size: 130%;color:yellow;">
+Graduation Details:
+</td>
+</tr>
+<tr>
+<td>
+Enter college name:<br><input type="text" name="HighSchool" value="enter here" />
+</td>
+<td>
+Enter University name:<br><input type="text" name="HighSchool" placeholder="enter here" />
+</td>
+<td>
+Graduation certificate:<br>
+<input type="file" name="myfile" accept="file/*" required><br></td>
+</tr>
+<tr>
+<td>
+Enter CGPI:<br>
+<input type="number" name="percentage" value="enter here" />
+</td>
+</tr>
+<tr>
+<tr>
+<td style="font-size: 130%;color:yellow;">
+Post-Graduation Details:
+</td>
+</tr>
+<tr>
+<td>
+Enter college name:<br><input type="text" name="HighSchool" value="enter here" />
+</td>
+<td>
+Enter University name:<br><input type="text" name="HighSchool" placeholder="enter here" />
+</td>
+<td>
+post-Graduation certificate:<br>
+<input type="file" name="myfile" accept="file/*"><br></td>
+</tr>
+<tr>
+<td>
+Enter CGPI:<br>
+<input type="number" name="percentage" placeholder="enter here" />
+</td>
+</tr>
+<tr>
+<td style="font-size: 180%;color:blue;">ISRO 2020 Exam:</td>
+</tr>
+<tr>
+<td><label for="text">ISRO exam paper branch:</label></td>
+<td>
+<select name="paper" id="paper">
+<option value="-1">Branch</option>
+<option value="1">Scientist/Engineer</option>
+<option value="2">Assistant/Upper Division Clerk </option>
+<option value="3">Accounts Officer</option>
+<option value="4">Administrative Officer </option>
+<option value="5">Assistant</option>
+<option value="6">Stenographer(computer literacy)</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Exam centres:</td>
+<td>
+<select name="City" id="City">
+<option value="-1">select</option>
+<option value="1">Ahmedabad</option>
+<option value="2">Bangalore</option>
+<option value="3">Bhopal</option>
+<option value="4">chennai</option>
+<option value="5">Guwahati</option>
+<option value="6">Hyderabad</option>
+<option value="7">Kolkata</option>
+<option value="8">Mumbai</option>
+<option value="9">New Delhi</option>
+<option value="10">Lucknow</option>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
